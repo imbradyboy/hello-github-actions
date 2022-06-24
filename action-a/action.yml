@@ -7,6 +7,10 @@ inputs:
     description: "Who to greet"
     required: true
     default: "World"
+  FAVOURITE_FOOD:
+    description: "What I like to eat"
+    required: true
+    default: "ice"
 
 runs:
   using: "docker"
